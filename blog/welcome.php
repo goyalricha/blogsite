@@ -44,7 +44,7 @@ Released   : 20111225
 					<li><a href="create.php">Create</a></li>
 					<li><a href="#">Photos</a></li>
 					<li><a href="#">About</a></li>
-					<li><a href="logout.php">HI!<?php session_start(); echo $_SESSION["user"];?></a></li>
+					<li><a href="logout.php">HI Dear!<?php session_start(); echo $_SESSION["user"];?></a></li>
 					
 					
 				</ul>
